@@ -34,6 +34,7 @@ To setup a local dev environment for hacking::
 
 4. Configure::
 
+    $ cp standup/settings.py standup/local_settings.py
     $ vim ./standup/local_settings.py
 
 5. Enable and run migrations::
